@@ -1,0 +1,248 @@
+body {
+    font-family: "Chakra Petch";
+    margin: 0px;
+}
+
+.header{
+    height:auto;
+    align-items: center;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0
+}
+
+.header-right{
+    float: right;
+}
+
+.header-right a {
+    font-size: 24px;
+}
+
+.business-card {
+    border: solid rgb(165, 159, 133);
+    border-radius: 25px;
+    height: 80vh;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 250, 229);
+}
+
+.business-card h1, p, i{
+    margin: 0px 15px;
+}
+
+.business-card h1 {
+    font-size: 60px;
+}
+
+.business-card p {
+    font-size: 25px;
+}
+
+.business-card a {
+    font-size: 18px;
+}
+
+.business-card img {
+    height: 70%;
+    width: auto;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.ab {
+    font-family: "Lexend";
+    font-size: 25px;
+    margin: auto;
+    width: 85%;
+}
+
+a.active {
+    color: white;
+}
+
+.active {
+    background-color: black;
+}
+
+.ab-img {
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.gallery {
+    display: block;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.gallery img {
+    width: 30%;
+    height: auto;
+    vertical-align: middle;
+    margin: 0px 10px;
+}
+
+.skills-container {
+    font-family:"Lexend";
+    font-size: 16px;
+    margin: auto;
+    width: 75%;
+    margin-bottom:50px;
+}
+
+.skill-img-container img {
+    width: 50px;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.project-container {
+    font-family:"Lexend";
+    font-size: 16px;
+    margin: auto;
+    width: 75%;
+}
+
+.project-container h1 {
+    text-align: center;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.project-category-container{
+    display: flex;
+}
+
+.category {
+    border-radius: 10px;
+    margin:15px;
+}
+
+.category p{
+    color:white;
+    font-size: 24px;
+}
+
+.data{
+    background-color:rgb(91, 203, 98);
+}
+
+.swe{
+    background-color: rgb(255, 176, 30);
+}
+
+.projects {
+    gap: 15px;
+}
+
+.project {
+    position: relative;
+    transition:all 0.5s;
+}
+
+.project img {
+    margin: 0px 5px;
+    max-height:100%; 
+    max-width:100%;
+    border-bottom: 20px solid;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #ffffff;
+    font-size: 50px; 
+    text-align: center;
+    font-family: "Chakra Petch";
+    font-weight: bold;
+    display: none;
+}
+
+.pswe img {
+    border-bottom-color:rgb(255, 176, 30);
+}
+
+.pdata img {
+    border-bottom-color: rgb(91, 203, 98);
+}
+
+.project:hover .overlay-text {
+    display: inline;
+}
+
+.project:hover img{
+    background-size: 105% 105%;
+    filter: brightness(0.5);
+    overflow: hidden;
+    cursor:default;
+    transition:all 0.5s;
+}
+
+.project:hover .overlay-text {
+    cursor: default;
+}
+
+.project-summary{
+    width: 85%;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+.project-summary p{
+    font-family:"Lexend";
+    font-size: 24px;
+    display:inline;
+}
+
+.project-summary a{
+    font-family:"Lexend";
+    font-size: 24px;
+    display: inline;
+}
+
+.description {
+    width: 85%;
+    margin: auto
+}
+
+.description p{
+    font-family:"Lexend";
+    font-size:24px;
+}
+
+.project-img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.project-img-container img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.one-img{
+    grid-template-columns: 1fr;
+    width:50%;
+    margin:auto;
+}
