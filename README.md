@@ -2,4 +2,4 @@ This is a personal website for showcasing my projects and experience to employer
 
 Check it out on this link:
 
-https://github.com/grnt5/grnt-website
+https://grnt5.github.io/grnt-website/
